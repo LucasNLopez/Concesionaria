@@ -10,8 +10,9 @@ seleccion=int (input("SELECCIONE EL USUARIO QUE DESEA INGRESAR: \n"))
 if seleccion == admin:
     usuario=input("Ingrese el mail de administracion: \n")
     continuar=True
+    print("Bienvenido al menu de Administración.\n")
     while usuario == "lucaslopez@gmail.com" and continuar:
-        print("Bienvenido al menu de Administración.\n")
+        
         ver_catalogo=1
         agregar_vehiculo=2
         salir=3
